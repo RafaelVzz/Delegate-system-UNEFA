@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Dashboard</h2>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="get" class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Carrera</label>
+                <select name="carrera" class="form-select" onchange="this.form.submit()">
+                    <option value="">Seleccionar Carrera...</option>
+                    {% for c in carreras %}
+                        <option value="{{ c.id }}" {% if selected_carrera.id == c.id %}selected{% endif %}>{{ c.nombre_carrera }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Sección</label>
+                <select name="seccion" class="form-select" onchange="this.form.submit()">
+                    <option value="">Seleccionar Sección...</option>
+                    {% for s in secciones %}
+                        <option value="{{ s.id }}" {% if selected_seccion.id == s.id %}selected{% endif %}>{{ s.codigo_seccion }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-secondary">Filtrar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if selected_seccion %}
+    <h4>Materias de la sección {{ selected_seccion.codigo_seccion }}</h4>
+    <div class="row">
+        {% for materia in materias %}
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 {% if materia.delegado_actual %}border-success{% endif %}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ materia.nombre_materia }}</h5>
+                        <p class="card-text text-muted">{{ materia.codigo_materia }}</p>
+                        
+                        {% if materia.delegado_actual %}
+                            <p class="text-success fw-bold">Delegado: {{ materia.delegado_actual.first_name}} {{  materia.delegado_actual.last_name }}</p>
+                        {% else %}
+                            <p class="text-warning">Sin delegado</p>
+                        {% endif %}
+                        
+                        <a href="{% url 'materia_detalle' materia.id %}" class="btn btn-primary btn-sm stretched-link">Ver Detalles / Elección</a>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            <p class="text-muted">No hay materias registradas para esta sección.</p>
+        {% endfor %}
+    </div>
+{% endif %}
+{% endblock %}

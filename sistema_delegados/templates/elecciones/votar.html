@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="text-center mb-4">Votación: {{ eleccion.materia.nombre_materia }}</h2>
+        <div class="card">
+            <div class="card-header">
+                Selecciona tu candidato
+            </div>
+            <div class="card-body">
+                {% if not es_candidato %}
+                <form method="post" class="mb-4">
+                    {% csrf_token %}
+                    <button type="submit" name="postularse" value="true" class="btn btn-success btn-lg w-100">
+                        ✋ Postularme como Delegado
+                    </button>
+                </form>
+                {% endif %}
+
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="list-group mb-4">
+                        {% for estudiante in estudiantes %}
+                            <label class="list-group-item list-group-item-action d-flex align-items-center">
+                                <input class="form-check-input me-3" type="radio" name="candidato" value="{{ estudiante.id }}" required>
+                                <div>
+                                    <h5 class="mb-0">{{ estudiante.first_name }} {{ estudiante.last_name }}</h5>
+                                    <small class="text-muted">C.I: {{ estudiante.cedula }}</small>
+                                </div>
+                            </label>
+                        {% endfor %}
+                        
+                        {% if not estudiantes %}
+                            <div class="alert alert-info text-center">
+                                <h4>Aún no hay candidatos.</h4>
+                                <p>¡Sé el primero en postularte!</p>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Confirmar Voto</button>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="{% url 'materia_detalle' eleccion.materia.id %}" class="text-muted">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

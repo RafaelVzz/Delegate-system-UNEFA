@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="{% url 'dashboard' %}?seccion={{ materia.seccion.id }}" class="btn btn-outline-secondary mb-3">&larr; Volver</a>
+
+<div class="card shadow">
+    <div class="card-header bg-white">
+        <h2>{{ materia.nombre_materia }} <small class="text-muted">({{ materia.codigo_materia }})</small></h2>
+        <span class="badge bg-info text-dark">{{ materia.seccion.codigo_seccion }}</span>
+    </div>
+    <div class="card-body text-center p-5">
+        
+        {% if materia.delegado_actual %}
+            <div class="alert alert-success">
+                <h1 class="display-4">Delegado Asignado</h1>
+                <h2 class="fw-bold">{{ materia.delegado_actual.first_name }} {{ materia.delegado_actual.last_name }}</h2>
+                <p>Cédula: {{ materia.delegado_actual.cedula }}</p>
+            </div>
+        {% else %}
+            
+            {% if eleccion and eleccion.esta_activa %}
+                <div class="alert alert-warning border-warning">
+                    <h3>¡Elección en Progreso!</h3>
+                </div>
+                
+                <div class="my-5 p-4 bg-light border rounded">
+                    <p class="mb-0">TOKEN DE ACCESO</p>
+                    <h1 class="display-1 fw-bold text-primary" style="letter-spacing: 5px;">{{ eleccion.token_acceso }}</h1>
+                    <p class="text-muted">Escribe este código en la pizarra para que los estudiantes voten.</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form method="post" class="card card-body">
+                            {% csrf_token %}
+                            <label class="form-label fw-bold">Ingresar Token para Votar:</label>
+                            <div class="input-group mb-3">
+                                <input type="text" name="token" class="form-control form-control-lg text-uppercase" placeholder="Ej: ABC12" required>
+                                <button type="submit" name="verificar_token" class="btn btn-lg btn-primary">Ir a Votar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <hr class="my-5">
+                
+                <form method="post" onsubmit="return confirm('¿Seguro que deseas cerrar la elección? Esto asignará al ganador.');">
+                    {% csrf_token %}
+                    <button type="submit" name="cerrar_eleccion" class="btn btn-danger btn-lg">Cerrar Elección y Ver Resultados</button>
+                </form>
+
+            {% else %}
+                <div class="text-center py-5">
+                    {% if puede_convocar %}
+                        <h3 class="text-muted mb-4">Esta materia no tiene delegado asignado.</h3>
+                        <form method="post">
+                            {% csrf_token %}
+                            <button type="submit" name="convocar" class="btn btn-lg btn-success px-5">Convocar Elección</button>
+                        </form>
+                    {% else %}
+                         <div class="alert alert-secondary">
+                            <h4>Solo estudiantes de {{ materia.seccion.carrera.nombre_carrera }} pueden convocar la elección.</h4>
+                            <p>Espera a que un compañero de esa carrera la inicie.</p>
+                         </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+
+        {% endif %}
+    </div>
+</div>
+    </div>
+</div>
+
+{% if mostrar_modal_asignacion %}
+<!-- Modal de Asignación Automática -->
+<div class="modal fade" id="modalAsignacion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title">¡Felicidades {{ materia.delegado_actual.first_name }}!</h5>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Has sido electo como delegado de <strong>{{ materia.nombre_materia }}</strong>.</p>
+        <p>Dado que perteneces a esta sección, ¿deseas asumir automáticamente la delegatura de las siguientes materias vacías?</p>
+        
+        <form method="post" action="{% url 'confirmar_auto_asignacion' %}">
+            {% csrf_token %}
+            <input type="hidden" name="ganador_id" value="{{ materia.delegado_actual.id }}">
+            
+            <div class="list-group mb-3">
+                {% for m in materias_vacias %}
+                    <label class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" name="materias" value="{{ m.id }}" checked>
+                        {{ m.nombre_materia }}
+                    </label>
+                {% endfor %}
+            </div>
+            
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-secondary me-md-2" data-bs-dismiss="modal">No, gracias</button>
+                <button type="submit" class="btn btn-success">Sí, aceptar seleccionadas</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var modal = new bootstrap.Modal(document.getElementById('modalAsignacion'));
+        modal.show();
+    });
+</script>
+{% endif %}
+
+{% endblock %}

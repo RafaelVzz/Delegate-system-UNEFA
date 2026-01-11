@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="modal d-block" tabindex="-1" style="background: rgba(0,0,0,0.5)">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title">¡Felicidades {{ ganador.first_name }}!</h5>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Has sido electo como delegado de <strong>{{ materia_origen.nombre_materia }}</strong>.</p>
+        <p>Dado que perteneces a esta sección, ¿deseas asumir automáticamente la delegatura de las siguientes materias vacías?</p>
+        
+        <form method="post" action="{% url 'confirmar_auto_asignacion' %}">
+            {% csrf_token %}
+            <input type="hidden" name="ganador_id" value="{{ ganador.id }}">
+            
+            <div class="list-group mb-3">
+                {% for m in materias_vacias %}
+                    <label class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" name="materias" value="{{ m.id }}" checked>
+                        {{ m.nombre_materia }}
+                    </label>
+                {% endfor %}
+            </div>
+            
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="{% url 'dashboard' %}" class="btn btn-secondary me-md-2">No, gracias</a>
+                <button type="submit" class="btn btn-success">Sí, aceptar seleccionadas</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
