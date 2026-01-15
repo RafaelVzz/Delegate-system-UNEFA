@@ -1,0 +1,2975 @@
+[
+{
+  "model": "core.carrera",
+  "pk": 1,
+  "fields": {
+    "nombre_carrera": "Ingeniería de Sistemas"
+  }
+},
+{
+  "model": "core.carrera",
+  "pk": 2,
+  "fields": {
+    "nombre_carrera": "Ingeniería Mecánica"
+  }
+},
+{
+  "model": "core.carrera",
+  "pk": 3,
+  "fields": {
+    "nombre_carrera": "Ingeniería Civil"
+  }
+},
+{
+  "model": "core.carrera",
+  "pk": 4,
+  "fields": {
+    "nombre_carrera": "Ingeniería Agroindustrial"
+  }
+},
+{
+  "model": "core.carrera",
+  "pk": 5,
+  "fields": {
+    "nombre_carrera": "T.S.U en Turismo"
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 1,
+  "fields": {
+    "codigo_seccion": "01S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 2,
+  "fields": {
+    "codigo_seccion": "02S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 3,
+  "fields": {
+    "codigo_seccion": "03S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 4,
+  "fields": {
+    "codigo_seccion": "04S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 5,
+  "fields": {
+    "codigo_seccion": "05S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 6,
+  "fields": {
+    "codigo_seccion": "06S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 7,
+  "fields": {
+    "codigo_seccion": "07S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 8,
+  "fields": {
+    "codigo_seccion": "08S-2603-D1",
+    "carrera": 1
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 9,
+  "fields": {
+    "codigo_seccion": "01S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 10,
+  "fields": {
+    "codigo_seccion": "02S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 11,
+  "fields": {
+    "codigo_seccion": "03S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 12,
+  "fields": {
+    "codigo_seccion": "04S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 13,
+  "fields": {
+    "codigo_seccion": "05S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 14,
+  "fields": {
+    "codigo_seccion": "06S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 15,
+  "fields": {
+    "codigo_seccion": "07S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 16,
+  "fields": {
+    "codigo_seccion": "08S-2403-D1",
+    "carrera": 2
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 17,
+  "fields": {
+    "codigo_seccion": "01S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 18,
+  "fields": {
+    "codigo_seccion": "02S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 19,
+  "fields": {
+    "codigo_seccion": "03S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 20,
+  "fields": {
+    "codigo_seccion": "04S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 21,
+  "fields": {
+    "codigo_seccion": "05S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 22,
+  "fields": {
+    "codigo_seccion": "06S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 23,
+  "fields": {
+    "codigo_seccion": "07S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 24,
+  "fields": {
+    "codigo_seccion": "08S-1303-D1",
+    "carrera": 3
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 25,
+  "fields": {
+    "codigo_seccion": "01S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 26,
+  "fields": {
+    "codigo_seccion": "02S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 27,
+  "fields": {
+    "codigo_seccion": "03S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 28,
+  "fields": {
+    "codigo_seccion": "04S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 29,
+  "fields": {
+    "codigo_seccion": "05S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 30,
+  "fields": {
+    "codigo_seccion": "06S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 31,
+  "fields": {
+    "codigo_seccion": "07S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 32,
+  "fields": {
+    "codigo_seccion": "08S-1903-D1",
+    "carrera": 4
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 33,
+  "fields": {
+    "codigo_seccion": "01S-0603-D1",
+    "carrera": 5
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 34,
+  "fields": {
+    "codigo_seccion": "02S-0603-D1",
+    "carrera": 5
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 35,
+  "fields": {
+    "codigo_seccion": "03S-0603-D1",
+    "carrera": 5
+  }
+},
+{
+  "model": "core.seccion",
+  "pk": 36,
+  "fields": {
+    "codigo_seccion": "04S-0603-D1",
+    "carrera": 5
+  }
+},
+{
+  "model": "core.usuario",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$IPCW5gkTLPBMv0owNeIXDo$tfOmIGbcamxt+rb9KrItIooXGwya1tsiCRIbqE/7Z4A=",
+    "last_login": "2026-01-15T02:57:58.448Z",
+    "is_superuser": false,
+    "username": "123456789",
+    "first_name": "jesus",
+    "last_name": "vasquez",
+    "email": "gato123@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-15T02:55:24.442Z",
+    "cedula": 123456789,
+    "seccion_base": 5,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 1,
+  "fields": {
+    "nombre_materia": "Educación Ambiental",
+    "codigo_materia": "ADG-25132",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 2,
+  "fields": {
+    "nombre_materia": "Hombre, Sociedad, Ciencia y Tec.",
+    "codigo_materia": "ADG-25123",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 3,
+  "fields": {
+    "nombre_materia": "Inglés I",
+    "codigo_materia": "IDM-24113",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 4,
+  "fields": {
+    "nombre_materia": "Dibujo",
+    "codigo_materia": "MAT-21212",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 5,
+  "fields": {
+    "nombre_materia": "Matemática I",
+    "codigo_materia": "MAT-21215",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 6,
+  "fields": {
+    "nombre_materia": "Geometría Analítica",
+    "codigo_materia": "MAT-21524",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 7,
+  "fields": {
+    "nombre_materia": "Seminario I",
+    "codigo_materia": "ADG-25131",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 8,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación I",
+    "codigo_materia": "DIN-21113",
+    "seccion": 1,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 9,
+  "fields": {
+    "nombre_materia": "Inglés II",
+    "codigo_materia": "IDM-24123",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 10,
+  "fields": {
+    "nombre_materia": "Química General",
+    "codigo_materia": "QUF-22014",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 11,
+  "fields": {
+    "nombre_materia": "Física I",
+    "codigo_materia": "QUF-23015",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 12,
+  "fields": {
+    "nombre_materia": "Matemática II",
+    "codigo_materia": "MAT-21225",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 13,
+  "fields": {
+    "nombre_materia": "Álgebra Lineal",
+    "codigo_materia": "MAT-21114",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 14,
+  "fields": {
+    "nombre_materia": "Seminario II",
+    "codigo_materia": "ADG-25141",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 15,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación II",
+    "codigo_materia": "DIN-21123",
+    "seccion": 2,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 16,
+  "fields": {
+    "nombre_materia": "Física II",
+    "codigo_materia": "QUF-23025",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 17,
+  "fields": {
+    "nombre_materia": "Matemática III",
+    "codigo_materia": "MAT-21235",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 18,
+  "fields": {
+    "nombre_materia": "Probabilidades y Estadística",
+    "codigo_materia": "MAT-21414",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 19,
+  "fields": {
+    "nombre_materia": "Programación",
+    "codigo_materia": "SYC-22113",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 20,
+  "fields": {
+    "nombre_materia": "Sistemas Administrativos",
+    "codigo_materia": "AGG-22313",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 21,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación III",
+    "codigo_materia": "DIN-21133",
+    "seccion": 3,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 22,
+  "fields": {
+    "nombre_materia": "Teoría de los Sistemas",
+    "codigo_materia": "SYC-32114",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 23,
+  "fields": {
+    "nombre_materia": "Cálculo Numérico",
+    "codigo_materia": "MAT-31714",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 24,
+  "fields": {
+    "nombre_materia": "Lógica Matemática",
+    "codigo_materia": "MAT-31214",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 25,
+  "fields": {
+    "nombre_materia": "Lenguajes de Programación I",
+    "codigo_materia": "SYC-32225",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 26,
+  "fields": {
+    "nombre_materia": "Procesamiento de Datos",
+    "codigo_materia": "SYC-32414",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 27,
+  "fields": {
+    "nombre_materia": "Sistemas de Producción",
+    "codigo_materia": "AGL-30214",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 28,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación IV",
+    "codigo_materia": "DIN-31143",
+    "seccion": 4,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 29,
+  "fields": {
+    "nombre_materia": "Teoría de Grafos",
+    "codigo_materia": "MAT-31114",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 30,
+  "fields": {
+    "nombre_materia": "Lenguajes de Programación II",
+    "codigo_materia": "SYC-32235",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 31,
+  "fields": {
+    "nombre_materia": "Investigación de Operaciones",
+    "codigo_materia": "MAT-30925",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 32,
+  "fields": {
+    "nombre_materia": "Circuitos Lógicos",
+    "codigo_materia": "ELN-30514",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 33,
+  "fields": {
+    "nombre_materia": "Análisis de Sistemas",
+    "codigo_materia": "SYC-32514",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 34,
+  "fields": {
+    "nombre_materia": "Bases de Datos",
+    "codigo_materia": "SYC-32614",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 35,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación V",
+    "codigo_materia": "DIN-31153",
+    "seccion": 5,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 36,
+  "fields": {
+    "nombre_materia": "Optimización No Lineal",
+    "codigo_materia": "MAT-30935",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 37,
+  "fields": {
+    "nombre_materia": "Lenguajes de Programación III",
+    "codigo_materia": "SYC-32245",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 38,
+  "fields": {
+    "nombre_materia": "Procesos Estocásticos",
+    "codigo_materia": "MAT-31414",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 39,
+  "fields": {
+    "nombre_materia": "Arquitectura del Computador",
+    "codigo_materia": "SYC-30525",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 40,
+  "fields": {
+    "nombre_materia": "Diseño de Sistemas",
+    "codigo_materia": "SYC-32524",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 41,
+  "fields": {
+    "nombre_materia": "Sistemas Operativos",
+    "codigo_materia": "SYC-30834",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 42,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VI",
+    "codigo_materia": "DIN-31163",
+    "seccion": 6,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 43,
+  "fields": {
+    "nombre_materia": "Implantación de Sistemas",
+    "codigo_materia": "SYC-32714",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 44,
+  "fields": {
+    "nombre_materia": "Metodología de la Investigación",
+    "codigo_materia": "ADG-30214",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 45,
+  "fields": {
+    "nombre_materia": "Simulación y Modelos",
+    "codigo_materia": "MAT-30945",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 46,
+  "fields": {
+    "nombre_materia": "Redes",
+    "codigo_materia": "SYC-31644",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 47,
+  "fields": {
+    "nombre_materia": "Gerencia de la Informática",
+    "codigo_materia": "ADG-30224",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 48,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-SIS-07",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 49,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-SIS-07",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 50,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VII",
+    "codigo_materia": "DIN-31173",
+    "seccion": 7,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 51,
+  "fields": {
+    "nombre_materia": "Teoría de Decisiones",
+    "codigo_materia": "MAT-31314",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 52,
+  "fields": {
+    "nombre_materia": "Auditoría de Sistemas",
+    "codigo_materia": "SYC-32814",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 53,
+  "fields": {
+    "nombre_materia": "Marco Legal Para el Ejercicio de la Ing.",
+    "codigo_materia": "CJU-37314",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 54,
+  "fields": {
+    "nombre_materia": "Teleprocesos",
+    "codigo_materia": "TTC-31154",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 55,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-SIS-08",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 56,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-SIS-08",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 57,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VIII",
+    "codigo_materia": "DIN-31183",
+    "seccion": 8,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 58,
+  "fields": {
+    "nombre_materia": "Educación Ambiental",
+    "codigo_materia": "ADG-25132",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 59,
+  "fields": {
+    "nombre_materia": "Hombre, Sociedad, Ciencia y Tec.",
+    "codigo_materia": "ADG-25123",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 60,
+  "fields": {
+    "nombre_materia": "Inglés I",
+    "codigo_materia": "IDM-24113",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 61,
+  "fields": {
+    "nombre_materia": "Dibujo",
+    "codigo_materia": "MAT-21212",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 62,
+  "fields": {
+    "nombre_materia": "Matemática I",
+    "codigo_materia": "MAT-21215",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 63,
+  "fields": {
+    "nombre_materia": "Geometría Analítica",
+    "codigo_materia": "MAT-21524",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 64,
+  "fields": {
+    "nombre_materia": "Seminario I",
+    "codigo_materia": "ADG-25131",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 65,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación I",
+    "codigo_materia": "DIN-21113",
+    "seccion": 9,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 66,
+  "fields": {
+    "nombre_materia": "Inglés II",
+    "codigo_materia": "IDM-24123",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 67,
+  "fields": {
+    "nombre_materia": "Química General",
+    "codigo_materia": "QUF-22014",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 68,
+  "fields": {
+    "nombre_materia": "Física I",
+    "codigo_materia": "QUF-23015",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 69,
+  "fields": {
+    "nombre_materia": "Matemática II",
+    "codigo_materia": "MAT-21225",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 70,
+  "fields": {
+    "nombre_materia": "Álgebra Lineal",
+    "codigo_materia": "MAT-21114",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 71,
+  "fields": {
+    "nombre_materia": "Seminario II",
+    "codigo_materia": "ADG-25141",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 72,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación II",
+    "codigo_materia": "DIN-21123",
+    "seccion": 10,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 73,
+  "fields": {
+    "nombre_materia": "Física II",
+    "codigo_materia": "QUF-23025",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 74,
+  "fields": {
+    "nombre_materia": "Matemática III",
+    "codigo_materia": "MAT-21235",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 75,
+  "fields": {
+    "nombre_materia": "Probabilidades y Estadística",
+    "codigo_materia": "MAT-21414",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 76,
+  "fields": {
+    "nombre_materia": "Programación",
+    "codigo_materia": "SYC-22113",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 77,
+  "fields": {
+    "nombre_materia": "Cálculo Numérico",
+    "codigo_materia": "MAT-20814",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 78,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación III",
+    "codigo_materia": "DIN-21133",
+    "seccion": 11,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 79,
+  "fields": {
+    "nombre_materia": "Matemáticas Aplic. a la Ingeniería",
+    "codigo_materia": "MAT-30265",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 80,
+  "fields": {
+    "nombre_materia": "Mecánica",
+    "codigo_materia": "MEC-30115",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 81,
+  "fields": {
+    "nombre_materia": "Termodinámica I",
+    "codigo_materia": "QUF-30315",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 82,
+  "fields": {
+    "nombre_materia": "Geometría Descriptiva",
+    "codigo_materia": "MAT-30123",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 83,
+  "fields": {
+    "nombre_materia": "Informática",
+    "codigo_materia": "SYC-30114",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 84,
+  "fields": {
+    "nombre_materia": "Elem. de Ciencias de Materiales y Metalurgia",
+    "codigo_materia": "MEC-30314",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 85,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación IV",
+    "codigo_materia": "DIN-31143",
+    "seccion": 12,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 86,
+  "fields": {
+    "nombre_materia": "Termodinámica II",
+    "codigo_materia": "QUF-30325",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 87,
+  "fields": {
+    "nombre_materia": "Electrotecnia",
+    "codigo_materia": "ELC-30315",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 88,
+  "fields": {
+    "nombre_materia": "Resistencia de los Materiales",
+    "codigo_materia": "MEC-30215",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 89,
+  "fields": {
+    "nombre_materia": "Mecánica de los Fluidos",
+    "codigo_materia": "MEC-30414",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 90,
+  "fields": {
+    "nombre_materia": "Dibujo Mecánico",
+    "codigo_materia": "MEC-30124",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 91,
+  "fields": {
+    "nombre_materia": "Procesos de Fabricación I",
+    "codigo_materia": "MEC-30614",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 92,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación V",
+    "codigo_materia": "DIN-31153",
+    "seccion": 13,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 93,
+  "fields": {
+    "nombre_materia": "Mecanismos",
+    "codigo_materia": "MEC-30134",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 94,
+  "fields": {
+    "nombre_materia": "Transferencia de Calor",
+    "codigo_materia": "QUF-30514",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 95,
+  "fields": {
+    "nombre_materia": "Sistemas",
+    "codigo_materia": "SYC-30814",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 96,
+  "fields": {
+    "nombre_materia": "Dinámica de Gases",
+    "codigo_materia": "MEC-30714",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 97,
+  "fields": {
+    "nombre_materia": "Procesos de Fabricación II",
+    "codigo_materia": "MEC-30625",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 98,
+  "fields": {
+    "nombre_materia": "Metodología de la Investigación",
+    "codigo_materia": "ADG-30214",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 99,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VI",
+    "codigo_materia": "DIN-31163",
+    "seccion": 14,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 100,
+  "fields": {
+    "nombre_materia": "Vibraciones Mecánicas",
+    "codigo_materia": "MEC-30915",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 101,
+  "fields": {
+    "nombre_materia": "Diseño de Elementos de Máquinas I",
+    "codigo_materia": "MEC-30815",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 102,
+  "fields": {
+    "nombre_materia": "Higiene y Seguridad Industrial",
+    "codigo_materia": "AGP-30213",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 103,
+  "fields": {
+    "nombre_materia": "Mantenimiento General",
+    "codigo_materia": "AGM-30315",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 104,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-MEC-07",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 105,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-MEC-07",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 106,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VII",
+    "codigo_materia": "DIN-31173",
+    "seccion": 15,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 107,
+  "fields": {
+    "nombre_materia": "Diseño de Elementos de Máquinas II",
+    "codigo_materia": "MEC-30825",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 108,
+  "fields": {
+    "nombre_materia": "Turbomáquinas",
+    "codigo_materia": "MEC-31015",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 109,
+  "fields": {
+    "nombre_materia": "Generación de Potencia",
+    "codigo_materia": "MEC-31115",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 110,
+  "fields": {
+    "nombre_materia": "Marco Legal Para el Ejercicio de la Ing.",
+    "codigo_materia": "CJU-37314",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 111,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-MEC-08",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 112,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-MEC-08",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 113,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VIII",
+    "codigo_materia": "DIN-31183",
+    "seccion": 16,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 114,
+  "fields": {
+    "nombre_materia": "Educación Ambiental",
+    "codigo_materia": "ADG-25132",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 115,
+  "fields": {
+    "nombre_materia": "Hombre, Sociedad, Ciencia y Tec.",
+    "codigo_materia": "ADG-25123",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 116,
+  "fields": {
+    "nombre_materia": "Inglés I",
+    "codigo_materia": "IDM-24113",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 117,
+  "fields": {
+    "nombre_materia": "Dibujo",
+    "codigo_materia": "MAT-21212",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 118,
+  "fields": {
+    "nombre_materia": "Matemática I",
+    "codigo_materia": "MAT-21215",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 119,
+  "fields": {
+    "nombre_materia": "Geometría Analítica",
+    "codigo_materia": "MAT-21524",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 120,
+  "fields": {
+    "nombre_materia": "Seminario I",
+    "codigo_materia": "ADG-25131",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 121,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación I",
+    "codigo_materia": "DIN-21113",
+    "seccion": 17,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 122,
+  "fields": {
+    "nombre_materia": "Inglés II",
+    "codigo_materia": "IDM-24123",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 123,
+  "fields": {
+    "nombre_materia": "Química General",
+    "codigo_materia": "QUF-22014",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 124,
+  "fields": {
+    "nombre_materia": "Física I",
+    "codigo_materia": "QUF-23015",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 125,
+  "fields": {
+    "nombre_materia": "Matemática II",
+    "codigo_materia": "MAT-21225",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 126,
+  "fields": {
+    "nombre_materia": "Álgebra Lineal",
+    "codigo_materia": "MAT-21114",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 127,
+  "fields": {
+    "nombre_materia": "Seminario II",
+    "codigo_materia": "ADG-25141",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 128,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación II",
+    "codigo_materia": "DIN-21123",
+    "seccion": 18,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 129,
+  "fields": {
+    "nombre_materia": "Física II",
+    "codigo_materia": "QUF-23025",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 130,
+  "fields": {
+    "nombre_materia": "Matemática III",
+    "codigo_materia": "MAT-21235",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 131,
+  "fields": {
+    "nombre_materia": "Probabilidades y Estadística",
+    "codigo_materia": "MAT-21414",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 132,
+  "fields": {
+    "nombre_materia": "Programación",
+    "codigo_materia": "SYC-22113",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 133,
+  "fields": {
+    "nombre_materia": "Cálculo Numérico",
+    "codigo_materia": "MAT-20714",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 134,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación III",
+    "codigo_materia": "DIN-21133",
+    "seccion": 19,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 135,
+  "fields": {
+    "nombre_materia": "Geometría Descriptiva",
+    "codigo_materia": "MAT-30123",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 136,
+  "fields": {
+    "nombre_materia": "Topografía",
+    "codigo_materia": "CIV-30115",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 137,
+  "fields": {
+    "nombre_materia": "Geología Aplicada",
+    "codigo_materia": "CIV-30123",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 138,
+  "fields": {
+    "nombre_materia": "Mecánica de los Fluidos",
+    "codigo_materia": "MEC-30414",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 139,
+  "fields": {
+    "nombre_materia": "Estática",
+    "codigo_materia": "MEC-31615",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 140,
+  "fields": {
+    "nombre_materia": "Resistencia de Materiales",
+    "codigo_materia": "MEC-31814",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 141,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-CIV-04",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 142,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación IV",
+    "codigo_materia": "DIN-31143",
+    "seccion": 20,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 143,
+  "fields": {
+    "nombre_materia": "Materiales y Ensayos",
+    "codigo_materia": "CIV-30314",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 144,
+  "fields": {
+    "nombre_materia": "Dinámica",
+    "codigo_materia": "MEC-31714",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 145,
+  "fields": {
+    "nombre_materia": "Hidrología",
+    "codigo_materia": "CIV-30213",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 146,
+  "fields": {
+    "nombre_materia": "Mecánica de los Suelos",
+    "codigo_materia": "CIV-30144",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 147,
+  "fields": {
+    "nombre_materia": "Vías de Comunicación",
+    "codigo_materia": "CIV-30615",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 148,
+  "fields": {
+    "nombre_materia": "Instalaciones Eléctricas",
+    "codigo_materia": "CIV-31024",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 149,
+  "fields": {
+    "nombre_materia": "Dibujo de Proyectos",
+    "codigo_materia": "CIV-31713",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 150,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación V",
+    "codigo_materia": "DIN-31153",
+    "seccion": 21,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 151,
+  "fields": {
+    "nombre_materia": "Administración de Obras",
+    "codigo_materia": "AGG-31113",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 152,
+  "fields": {
+    "nombre_materia": "Acueductos y Cloacas",
+    "codigo_materia": "CIV-31115",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 153,
+  "fields": {
+    "nombre_materia": "Teoría de Estructuras I",
+    "codigo_materia": "CIV-30415",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 154,
+  "fields": {
+    "nombre_materia": "Ingeniería de Tránsito",
+    "codigo_materia": "CIV-30623",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 155,
+  "fields": {
+    "nombre_materia": "Mantenimiento Gral. de Obras Civiles",
+    "codigo_materia": "AGM-31013",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 156,
+  "fields": {
+    "nombre_materia": "Arquitectura y Urbanismo",
+    "codigo_materia": "CIV-30713",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 157,
+  "fields": {
+    "nombre_materia": "Proyectos de Acero",
+    "codigo_materia": "CIV-30514",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 158,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-CIV-06",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 159,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VI",
+    "codigo_materia": "DIN-31163",
+    "seccion": 22,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 160,
+  "fields": {
+    "nombre_materia": "Concreto Armado",
+    "codigo_materia": "CIV-30915",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 161,
+  "fields": {
+    "nombre_materia": "Teoría de Estructuras II",
+    "codigo_materia": "CIV-30425",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 162,
+  "fields": {
+    "nombre_materia": "Diseño de Obras Hidráulicas",
+    "codigo_materia": "CIV-31214",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 163,
+  "fields": {
+    "nombre_materia": "Metodología de la Investigación",
+    "codigo_materia": "ADG-30214",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 164,
+  "fields": {
+    "nombre_materia": "Ferrocarriles",
+    "codigo_materia": "CIV-30653",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 165,
+  "fields": {
+    "nombre_materia": "Pavimentos",
+    "codigo_materia": "CIV-30813",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 166,
+  "fields": {
+    "nombre_materia": "Planificación y Eval. de Proyectos",
+    "codigo_materia": "AGG-31513",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 167,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VII",
+    "codigo_materia": "DIN-31173",
+    "seccion": 23,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 168,
+  "fields": {
+    "nombre_materia": "Fundaciones y Muros",
+    "codigo_materia": "CIV-31314",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 169,
+  "fields": {
+    "nombre_materia": "Marco Legal Para el Ejercicio de la Ing.",
+    "codigo_materia": "CJU-37314",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 170,
+  "fields": {
+    "nombre_materia": "Ingeniería Sísmica",
+    "codigo_materia": "CIV-31514",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 171,
+  "fields": {
+    "nombre_materia": "Puentes",
+    "codigo_materia": "CIV-31614",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 172,
+  "fields": {
+    "nombre_materia": "Concreto Precomprimido",
+    "codigo_materia": "CIV-31414",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 173,
+  "fields": {
+    "nombre_materia": "Electiva Técnica I",
+    "codigo_materia": "ELEC-TEC1-CIV-08",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 174,
+  "fields": {
+    "nombre_materia": "Electiva Técnica II",
+    "codigo_materia": "ELEC-TEC2-CIV-08",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 175,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VIII",
+    "codigo_materia": "DIN-31183",
+    "seccion": 24,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 176,
+  "fields": {
+    "nombre_materia": "Educación Ambiental",
+    "codigo_materia": "ADG-25132",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 177,
+  "fields": {
+    "nombre_materia": "Hombre, Sociedad, Ciencia y Tec.",
+    "codigo_materia": "ADG-25123",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 178,
+  "fields": {
+    "nombre_materia": "Inglés I",
+    "codigo_materia": "IDM-24113",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 179,
+  "fields": {
+    "nombre_materia": "Dibujo",
+    "codigo_materia": "MAT-21212",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 180,
+  "fields": {
+    "nombre_materia": "Matemática I",
+    "codigo_materia": "MAT-21215",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 181,
+  "fields": {
+    "nombre_materia": "Geometría Analítica",
+    "codigo_materia": "MAT-21524",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 182,
+  "fields": {
+    "nombre_materia": "Seminario I",
+    "codigo_materia": "ADG-25131",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 183,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación I",
+    "codigo_materia": "DIN-21113",
+    "seccion": 25,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 184,
+  "fields": {
+    "nombre_materia": "Inglés II",
+    "codigo_materia": "IDM-24123",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 185,
+  "fields": {
+    "nombre_materia": "Química General",
+    "codigo_materia": "QUF-22014",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 186,
+  "fields": {
+    "nombre_materia": "Física I",
+    "codigo_materia": "QUF-23015",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 187,
+  "fields": {
+    "nombre_materia": "Matemática II",
+    "codigo_materia": "MAT-21225",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 188,
+  "fields": {
+    "nombre_materia": "Álgebra Lineal",
+    "codigo_materia": "MAT-21114",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 189,
+  "fields": {
+    "nombre_materia": "Seminario II",
+    "codigo_materia": "ADG-25141",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 190,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación II",
+    "codigo_materia": "DIN-21123",
+    "seccion": 26,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 191,
+  "fields": {
+    "nombre_materia": "Física II",
+    "codigo_materia": "QUF-23025",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 192,
+  "fields": {
+    "nombre_materia": "Matemática III",
+    "codigo_materia": "MAT-21235",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 193,
+  "fields": {
+    "nombre_materia": "Probabilidades y Estadística",
+    "codigo_materia": "MAT-21414",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 194,
+  "fields": {
+    "nombre_materia": "Programación",
+    "codigo_materia": "SYC-22113",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 195,
+  "fields": {
+    "nombre_materia": "Química Orgánica",
+    "codigo_materia": "QUF-21114",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 196,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación III",
+    "codigo_materia": "DIN-21133",
+    "seccion": 27,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 197,
+  "fields": {
+    "nombre_materia": "Introducción a la Ing. Agroindustrial",
+    "codigo_materia": "AGI-35113",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 198,
+  "fields": {
+    "nombre_materia": "Biología",
+    "codigo_materia": "BIO-34114",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 199,
+  "fields": {
+    "nombre_materia": "Ecología",
+    "codigo_materia": "AGI-35122",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 200,
+  "fields": {
+    "nombre_materia": "Fisicoquímica",
+    "codigo_materia": "QUI-33214",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 201,
+  "fields": {
+    "nombre_materia": "Bioquímica",
+    "codigo_materia": "QUI-33223",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 202,
+  "fields": {
+    "nombre_materia": "Iniciativa Empresarial",
+    "codigo_materia": "ADG-36112",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 203,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación IV",
+    "codigo_materia": "DIN-31143",
+    "seccion": 28,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 204,
+  "fields": {
+    "nombre_materia": "Estadística Aplicada a la Agroindustrial",
+    "codigo_materia": "MAT-31113",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 205,
+  "fields": {
+    "nombre_materia": "Alimentación y Nutrición",
+    "codigo_materia": "AGI-35412",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 206,
+  "fields": {
+    "nombre_materia": "Balance de Materia y Energía",
+    "codigo_materia": "QUI-33233",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 207,
+  "fields": {
+    "nombre_materia": "Microbiología de Alimentos",
+    "codigo_materia": "BIO-34214",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 208,
+  "fields": {
+    "nombre_materia": "Materias Primas Agropecuarias",
+    "codigo_materia": "AGI-35213",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 209,
+  "fields": {
+    "nombre_materia": "Conservación y Transformación de Alimentos",
+    "codigo_materia": "AGI-35244",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 210,
+  "fields": {
+    "nombre_materia": "Economía y Mercadeo Agroindustrial",
+    "codigo_materia": "ECN-32214",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 211,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación V",
+    "codigo_materia": "DIN-31153",
+    "seccion": 29,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 212,
+  "fields": {
+    "nombre_materia": "Operaciones Unitarias",
+    "codigo_materia": "AGI-35144",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 213,
+  "fields": {
+    "nombre_materia": "Tecnología Agrícola",
+    "codigo_materia": "AGI-35314",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 214,
+  "fields": {
+    "nombre_materia": "Administración Financiera y de la Prod.",
+    "codigo_materia": "AGG-32113",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 215,
+  "fields": {
+    "nombre_materia": "Diagnóstico y Control de Plagas",
+    "codigo_materia": "AGI-35233",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 216,
+  "fields": {
+    "nombre_materia": "Tecnología de Alimentos de Origen Animal",
+    "codigo_materia": "AGI-35344",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 217,
+  "fields": {
+    "nombre_materia": "Metodología de la Investigación",
+    "codigo_materia": "ADG-30214",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 218,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-AGR-06",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 219,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VI",
+    "codigo_materia": "DIN-31163",
+    "seccion": 30,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 220,
+  "fields": {
+    "nombre_materia": "Control de Calidad",
+    "codigo_materia": "AGG-36143",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 221,
+  "fields": {
+    "nombre_materia": "Planificación y Gestión de Proyectos",
+    "codigo_materia": "ADG-36134",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 222,
+  "fields": {
+    "nombre_materia": "Higiene y Seguridad Industrial",
+    "codigo_materia": "AGI-35264",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 223,
+  "fields": {
+    "nombre_materia": "Seminario de Investigación Social",
+    "codigo_materia": "ADG-30914",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 224,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-AGR-07",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 225,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VII",
+    "codigo_materia": "DIN-31173",
+    "seccion": 31,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 226,
+  "fields": {
+    "nombre_materia": "Sanidad Animal",
+    "codigo_materia": "ADG-35253",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 227,
+  "fields": {
+    "nombre_materia": "Marco Legal Para el Ejercicio de la Ing.",
+    "codigo_materia": "CJU-37314",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 228,
+  "fields": {
+    "nombre_materia": "Normas Ambientales para la Agroindustria",
+    "codigo_materia": "CJU-37142",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 229,
+  "fields": {
+    "nombre_materia": "Electiva Técnica",
+    "codigo_materia": "ELEC-TEC-AGR-08",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 230,
+  "fields": {
+    "nombre_materia": "Electiva No Técnica",
+    "codigo_materia": "ELEC-NOT-AGR-08",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 231,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación VIII",
+    "codigo_materia": "DIN-31183",
+    "seccion": 32,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 232,
+  "fields": {
+    "nombre_materia": "Educación Ambiental",
+    "codigo_materia": "ADG-15112",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 233,
+  "fields": {
+    "nombre_materia": "Inglés I",
+    "codigo_materia": "IDM-12113",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 234,
+  "fields": {
+    "nombre_materia": "Matemática",
+    "codigo_materia": "MAT-11113",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 235,
+  "fields": {
+    "nombre_materia": "Historia Económica y Social de Venezuela",
+    "codigo_materia": "SOC-13112",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 236,
+  "fields": {
+    "nombre_materia": "Administración",
+    "codigo_materia": "AYE-17113",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 237,
+  "fields": {
+    "nombre_materia": "Fundamentos del Turismo",
+    "codigo_materia": "HYT-14213",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 238,
+  "fields": {
+    "nombre_materia": "Electiva de Idioma I",
+    "codigo_materia": "ELEC-IDI1-TUR-01",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 239,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación I",
+    "codigo_materia": "DIN-11113",
+    "seccion": 33,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 240,
+  "fields": {
+    "nombre_materia": "Informática",
+    "codigo_materia": "SYC-16124",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 241,
+  "fields": {
+    "nombre_materia": "Inglés II",
+    "codigo_materia": "IDM-12124",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 242,
+  "fields": {
+    "nombre_materia": "Estadística",
+    "codigo_materia": "MAT-11214",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 243,
+  "fields": {
+    "nombre_materia": "Geografía Turística",
+    "codigo_materia": "SOC-13214",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 244,
+  "fields": {
+    "nombre_materia": "Administración Turística",
+    "codigo_materia": "AYE-17124",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 245,
+  "fields": {
+    "nombre_materia": "Electiva de Idioma II",
+    "codigo_materia": "ELEC-IDI2-TUR-02",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 246,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación II",
+    "codigo_materia": "DIN-11123",
+    "seccion": 34,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 247,
+  "fields": {
+    "nombre_materia": "Contabilidad General",
+    "codigo_materia": "MAT-11224",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 248,
+  "fields": {
+    "nombre_materia": "Inglés III",
+    "codigo_materia": "IDM-12134",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 249,
+  "fields": {
+    "nombre_materia": "Economía",
+    "codigo_materia": "AYE-17213",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 250,
+  "fields": {
+    "nombre_materia": "Mercadeo y Promoción Turística",
+    "codigo_materia": "HYT-14233",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 251,
+  "fields": {
+    "nombre_materia": "Técnicas Turísticas",
+    "codigo_materia": "HYT-14224",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 252,
+  "fields": {
+    "nombre_materia": "Gerencia",
+    "codigo_materia": "ADG-15163",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 253,
+  "fields": {
+    "nombre_materia": "Electiva de Idioma III",
+    "codigo_materia": "ELEC-IDI3-TUR-03",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 254,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación III",
+    "codigo_materia": "DIN-11133",
+    "seccion": 35,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 255,
+  "fields": {
+    "nombre_materia": "Tráfico Aéreo",
+    "codigo_materia": "HYT-14243",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 256,
+  "fields": {
+    "nombre_materia": "Inglés IV",
+    "codigo_materia": "IDM-12144",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 257,
+  "fields": {
+    "nombre_materia": "Legislación y Ética Profesional",
+    "codigo_materia": "HYT-14114",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 258,
+  "fields": {
+    "nombre_materia": "Eventos y Recreación",
+    "codigo_materia": "ADG-15133",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 259,
+  "fields": {
+    "nombre_materia": "Relaciones Públicas, Protocolo y Etiqueta",
+    "codigo_materia": "ADG-15174",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 260,
+  "fields": {
+    "nombre_materia": "Finanzas y Presupuesto",
+    "codigo_materia": "AYE-17224",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 261,
+  "fields": {
+    "nombre_materia": "Redacción de Informes Técnicos",
+    "codigo_materia": "ADG-10243",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.materia",
+  "pk": 262,
+  "fields": {
+    "nombre_materia": "Defensa Integral de la Nación IV",
+    "codigo_materia": "DIN-11143",
+    "seccion": 36,
+    "delegado_actual": null
+  }
+},
+{
+  "model": "elecciones.eleccion",
+  "pk": 1,
+  "fields": {
+    "materia": 22,
+    "token_acceso": "2GLD6",
+    "fecha_creacion": "2026-01-15T02:56:10.349Z",
+    "esta_activa": true,
+    "candidatos": []
+  }
+}
+]
